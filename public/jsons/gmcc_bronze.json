@@ -1,0 +1,1213 @@
+{
+    "lender_name": "GMCC - Bronze",
+    "ADJUSTMENT_JUMBO_30Fix": {
+        "LTV": {
+            "CS690": {
+                "LTV59": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 680-699": "-0.625",
+                    "Purchase": "+0.125"
+                },
+                "LTV64": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 680-699": "-1.125",
+                    "Purchase": "+0.125"
+                },
+                "LTV74": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 680-699": "-2.500",
+                    "Purchase": "+0.125"
+                },
+                "LTV79": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 680-699": "-3.375",
+                    "Purchase": "+0.125"
+                },
+                "LTV84": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 680-699": "-4.750",
+                    "Purchase": "+0.125",
+                    "80% < LTV <= 90%, MI Adj -.25": "-0.250"
+                }
+            },
+            "CS710": {
+                "LTV59": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 700-719": "-0.125",
+                    "Purchase": "+0.125"
+                },
+                "LTV64": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 700-719": "-0.500",
+                    "Purchase": "+0.125"
+                },
+                "LTV74": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 700-719": "-1.500",
+                    "Purchase": "+0.125"
+                },
+                "LTV79": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 700-719": "-2.250",
+                    "Purchase": "+0.125"
+                },
+                "LTV84": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 700-719": "-3.500",
+                    "Purchase": "+0.125",
+                    "80% < LTV <= 90%, MI Adj -.25": "-0.250"
+                },
+                "LTV89": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 700-719": "-5.000",
+                    "Purchase": "+0.125",
+                    "80% < LTV <= 90%, MI Adj -.25": "-0.250"
+                }
+            },
+            "CS730": {
+                "LTV59": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 720-739": "0.000",
+                    "Purchase": "+0.125"
+                },
+                "LTV64": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 720-739": "-0.125",
+                    "Purchase": "+0.125"
+                },
+                "LTV74": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 720-739": "-1.000",
+                    "Purchase": "+0.125"
+                },
+                "LTV79": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 720-739": "-1.750",
+                    "Purchase": "+0.125"
+                },
+                "LTV84": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 720-739": "-2.625",
+                    "Purchase": "+0.125",
+                    "80% < LTV <= 90%, MI Adj -.25": "-0.250"
+                },
+                "LTV89": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 720-739": "-4.000",
+                    "Purchase": "+0.125",
+                    "80% < LTV <= 90%, MI Adj -.25": "-0.250"
+                }
+            },
+            "CS750": {
+                "LTV59": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 740-759": "+0.125",
+                    "Purchase": "+0.125"
+                },
+                "LTV64": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 740-759": "0.000",
+                    "Purchase": "+0.125"
+                },
+                "LTV74": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 740-759": "-0.750",
+                    "Purchase": "+0.125"
+                },
+                "LTV79": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 740-759": "-1.375",
+                    "Purchase": "+0.125"
+                },
+                "LTV84": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 740-759": "-2.125",
+                    "Purchase": "+0.125",
+                    "80% < LTV <= 90%, MI Adj -.25": "-0.250"
+                },
+                "LTV89": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 740-759": "-3.125",
+                    "Purchase": "+0.125",
+                    "80% < LTV <= 90%, MI Adj -.25": "-0.250"
+                }
+            },
+            "CS790": {
+                "LTV59": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO >= 760": "+0.250",
+                    "Purchase": "+0.125"
+                },
+                "LTV64": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO >= 760": "+0.125",
+                    "Purchase": "+0.125"
+                },
+                "LTV74": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO >= 760": "-0.625",
+                    "Purchase": "+0.125"
+                },
+                "LTV79": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO >= 760": "-1.250",
+                    "Purchase": "+0.125"
+                },
+                "LTV84": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO >= 760": "-1.750",
+                    "Purchase": "+0.125",
+                    "80% < LTV <= 90%, MI Adj -.25": "-0.250"
+                },
+                "LTV89": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO >= 760": "-2.625",
+                    "Purchase": "+0.125",
+                    "80% < LTV <= 90%, MI Adj -.25": "-0.250"
+                }
+            }
+        },
+        "Condo": {
+            "CS750": {
+                "LTV59": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 740-759": "+0.125",
+                    "Purchase": "+0.125"
+                },
+                "LTV74": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 740-759": "-0.750",
+                    "Purchase": "+0.125"
+                },
+                "LTV79": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 740-759": "-1.375",
+                    "Purchase": "+0.125"
+                },
+                "LTV84": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 740-759": "-2.125",
+                    "Purchase": "+0.125",
+                    "80% < LTV <= 90%, MI Adj -.25": "-0.250"
+                }
+            }
+        },
+        "TwoUnit": {
+            "CS750": {
+                "LTV59": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 740-759": "+0.125",
+                    "Purchase": "+0.125"
+                }
+            }
+        },
+        "Investment": {
+            "CS750": {
+                "LTV59": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 740-759": "+0.125",
+                    "Investment Property": "-1.000",
+                    "Purchase": "+0.125"
+                },
+                "LTV74": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 740-759": "-0.750",
+                    "Investment Property": "-2.500",
+                    "Purchase": "+0.125"
+                }
+            }
+        },
+        "CashOut": {
+            "CS770": {
+                "LTV59": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO >= 760": "+0.250",
+                    "C/O Refinance": "-0.500"
+                },
+                "LTV64": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO >= 760": "+0.125",
+                    "C/O Refinance": "-0.625"
+                },
+                "LTV74": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO >= 760": "-0.625",
+                    "C/O Refinance": "-1.000"
+                },
+                "LTV79": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO >= 760": "-1.250",
+                    "C/O Refinance": "-1.500"
+                }
+            }
+        }
+    },
+    "ADJUSTMENT_JUMBO_15Fix": {
+        "LTV": {
+            "CS690": {
+                "LTV59": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 680-699": "-0.625",
+                    "Purchase": "+0.125"
+                },
+                "LTV64": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 680-699": "-1.125",
+                    "Purchase": "+0.125"
+                },
+                "LTV74": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 680-699": "-2.500",
+                    "Purchase": "+0.125"
+                },
+                "LTV79": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 680-699": "-3.375",
+                    "Purchase": "+0.125"
+                },
+                "LTV84": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 680-699": "-4.750",
+                    "Purchase": "+0.125",
+                    "80% < LTV <= 90%, MI Adj -.25": "-0.250"
+                }
+            },
+            "CS710": {
+                "LTV59": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 700-719": "-0.125",
+                    "Purchase": "+0.125"
+                },
+                "LTV64": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 700-719": "-0.500",
+                    "Purchase": "+0.125"
+                },
+                "LTV74": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 700-719": "-1.500",
+                    "Purchase": "+0.125"
+                },
+                "LTV79": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 700-719": "-2.250",
+                    "Purchase": "+0.125"
+                },
+                "LTV84": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 700-719": "-3.500",
+                    "Purchase": "+0.125",
+                    "80% < LTV <= 90%, MI Adj -.25": "-0.250"
+                },
+                "LTV89": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 700-719": "-5.000",
+                    "Purchase": "+0.125",
+                    "80% < LTV <= 90%, MI Adj -.25": "-0.250"
+                }
+            },
+            "CS730": {
+                "LTV59": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 720-739": "0.000",
+                    "Purchase": "+0.125"
+                },
+                "LTV64": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 720-739": "-0.125",
+                    "Purchase": "+0.125"
+                },
+                "LTV74": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 720-739": "-1.000",
+                    "Purchase": "+0.125"
+                },
+                "LTV79": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 720-739": "-1.750",
+                    "Purchase": "+0.125"
+                },
+                "LTV84": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 720-739": "-2.625",
+                    "Purchase": "+0.125",
+                    "80% < LTV <= 90%, MI Adj -.25": "-0.250"
+                },
+                "LTV89": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 720-739": "-4.000",
+                    "Purchase": "+0.125",
+                    "80% < LTV <= 90%, MI Adj -.25": "-0.250"
+                }
+            },
+            "CS750": {
+                "LTV59": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 740-759": "+0.125",
+                    "Purchase": "+0.125"
+                },
+                "LTV64": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 740-759": "0.000",
+                    "Purchase": "+0.125"
+                },
+                "LTV74": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 740-759": "-0.750",
+                    "Purchase": "+0.125"
+                },
+                "LTV79": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 740-759": "-1.375",
+                    "Purchase": "+0.125"
+                },
+                "LTV84": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 740-759": "-2.125",
+                    "Purchase": "+0.125",
+                    "80% < LTV <= 90%, MI Adj -.25": "-0.250"
+                },
+                "LTV89": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 740-759": "-3.125",
+                    "Purchase": "+0.125",
+                    "80% < LTV <= 90%, MI Adj -.25": "-0.250"
+                }
+            },
+            "CS790": {
+                "LTV59": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO >= 760": "+0.250",
+                    "Purchase": "+0.125"
+                },
+                "LTV64": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO >= 760": "+0.125",
+                    "Purchase": "+0.125"
+                },
+                "LTV74": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO >= 760": "-0.625",
+                    "Purchase": "+0.125"
+                },
+                "LTV79": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO >= 760": "-1.250",
+                    "Purchase": "+0.125"
+                },
+                "LTV84": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO >= 760": "-1.750",
+                    "Purchase": "+0.125",
+                    "80% < LTV <= 90%, MI Adj -.25": "-0.250"
+                },
+                "LTV89": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO >= 760": "-2.625",
+                    "Purchase": "+0.125",
+                    "80% < LTV <= 90%, MI Adj -.25": "-0.250"
+                }
+            }
+        },
+        "Condo": {
+            "CS750": {
+                "LTV59": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 740-759": "+0.125",
+                    "Purchase": "+0.125"
+                },
+                "LTV74": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 740-759": "-0.750",
+                    "Purchase": "+0.125"
+                },
+                "LTV79": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 740-759": "-1.375",
+                    "Purchase": "+0.125"
+                },
+                "LTV84": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 740-759": "-2.125",
+                    "Purchase": "+0.125",
+                    "80% < LTV <= 90%, MI Adj -.25": "-0.250"
+                }
+            }
+        },
+        "TwoUnit": {
+            "CS750": {
+                "LTV59": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 740-759": "+0.125",
+                    "Purchase": "+0.125"
+                }
+            }
+        },
+        "Investment": {
+            "CS750": {
+                "LTV59": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 740-759": "+0.125",
+                    "Investment Property": "-1.000",
+                    "Purchase": "+0.125"
+                },
+                "LTV74": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 740-759": "-0.750",
+                    "Investment Property": "-2.500",
+                    "Purchase": "+0.125"
+                }
+            }
+        },
+        "CashOut": {
+            "CS770": {
+                "LTV59": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO >= 760": "+0.250",
+                    "C/O Refinance": "-0.500"
+                },
+                "LTV64": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO >= 760": "+0.125",
+                    "C/O Refinance": "-0.625"
+                },
+                "LTV74": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO >= 760": "-0.625",
+                    "C/O Refinance": "-1.000"
+                },
+                "LTV79": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO >= 760": "-1.250",
+                    "C/O Refinance": "-1.500"
+                }
+            }
+        }
+    },
+    "ADJUSTMENT_JUMBO_10ARM": {
+        "LTV": {
+            "CS690": {
+                "LTV59": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 680-699": "-0.625",
+                    "Purchase": "+0.125"
+                },
+                "LTV64": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 680-699": "-1.125",
+                    "Purchase": "+0.125"
+                },
+                "LTV74": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 680-699": "-2.500",
+                    "Purchase": "+0.125"
+                },
+                "LTV79": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 680-699": "-3.375",
+                    "Purchase": "+0.125"
+                },
+                "LTV84": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 680-699": "-4.750",
+                    "Purchase": "+0.125",
+                    "80% < LTV <= 90%, MI Adj -.25": "-0.250"
+                }
+            },
+            "CS710": {
+                "LTV59": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 700-719": "-0.125",
+                    "Purchase": "+0.125"
+                },
+                "LTV64": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 700-719": "-0.500",
+                    "Purchase": "+0.125"
+                },
+                "LTV74": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 700-719": "-1.500",
+                    "Purchase": "+0.125"
+                },
+                "LTV79": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 700-719": "-2.250",
+                    "Purchase": "+0.125"
+                },
+                "LTV84": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 700-719": "-3.500",
+                    "Purchase": "+0.125",
+                    "80% < LTV <= 90%, MI Adj -.25": "-0.250"
+                },
+                "LTV89": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 700-719": "-5.000",
+                    "Purchase": "+0.125",
+                    "80% < LTV <= 90%, MI Adj -.25": "-0.250"
+                }
+            },
+            "CS730": {
+                "LTV59": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 720-739": "0.000",
+                    "Purchase": "+0.125"
+                },
+                "LTV64": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 720-739": "-0.125",
+                    "Purchase": "+0.125"
+                },
+                "LTV74": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 720-739": "-1.000",
+                    "Purchase": "+0.125"
+                },
+                "LTV79": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 720-739": "-1.750",
+                    "Purchase": "+0.125"
+                },
+                "LTV84": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 720-739": "-2.625",
+                    "Purchase": "+0.125",
+                    "80% < LTV <= 90%, MI Adj -.25": "-0.250"
+                },
+                "LTV89": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 720-739": "-4.000",
+                    "Purchase": "+0.125",
+                    "80% < LTV <= 90%, MI Adj -.25": "-0.250"
+                }
+            },
+            "CS750": {
+                "LTV59": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 740-759": "+0.125",
+                    "Purchase": "+0.125"
+                },
+                "LTV64": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 740-759": "0.000",
+                    "Purchase": "+0.125"
+                },
+                "LTV74": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 740-759": "-0.750",
+                    "Purchase": "+0.125"
+                },
+                "LTV79": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 740-759": "-1.375",
+                    "Purchase": "+0.125"
+                },
+                "LTV84": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 740-759": "-2.125",
+                    "Purchase": "+0.125",
+                    "80% < LTV <= 90%, MI Adj -.25": "-0.250"
+                },
+                "LTV89": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 740-759": "-3.125",
+                    "Purchase": "+0.125",
+                    "80% < LTV <= 90%, MI Adj -.25": "-0.250"
+                }
+            },
+            "CS790": {
+                "LTV59": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO >= 760": "+0.250",
+                    "Purchase": "+0.125"
+                },
+                "LTV64": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO >= 760": "+0.125",
+                    "Purchase": "+0.125"
+                },
+                "LTV74": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO >= 760": "-0.625",
+                    "Purchase": "+0.125"
+                },
+                "LTV79": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO >= 760": "-1.250",
+                    "Purchase": "+0.125"
+                },
+                "LTV84": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO >= 760": "-1.750",
+                    "Purchase": "+0.125",
+                    "80% < LTV <= 90%, MI Adj -.25": "-0.250"
+                },
+                "LTV89": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO >= 760": "-2.625",
+                    "Purchase": "+0.125",
+                    "80% < LTV <= 90%, MI Adj -.25": "-0.250"
+                }
+            }
+        },
+        "Condo": {
+            "CS750": {
+                "LTV59": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 740-759": "+0.125",
+                    "Purchase": "+0.125"
+                },
+                "LTV74": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 740-759": "-0.750",
+                    "Purchase": "+0.125"
+                },
+                "LTV79": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 740-759": "-1.375",
+                    "Purchase": "+0.125"
+                },
+                "LTV84": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 740-759": "-2.125",
+                    "Purchase": "+0.125",
+                    "80% < LTV <= 90%, MI Adj -.25": "-0.250"
+                }
+            }
+        },
+        "TwoUnit": {
+            "CS750": {
+                "LTV59": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 740-759": "+0.125",
+                    "Purchase": "+0.125"
+                }
+            }
+        },
+        "Investment": {
+            "CS750": {
+                "LTV59": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 740-759": "+0.125",
+                    "Investment Property": "-1.000",
+                    "Purchase": "+0.125"
+                },
+                "LTV74": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 740-759": "-0.750",
+                    "Investment Property": "-2.500",
+                    "Purchase": "+0.125"
+                }
+            }
+        },
+        "CashOut": {
+            "CS770": {
+                "LTV59": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO >= 760": "+0.250",
+                    "C/O Refinance": "-0.500"
+                },
+                "LTV64": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO >= 760": "+0.125",
+                    "C/O Refinance": "-0.625"
+                },
+                "LTV74": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO >= 760": "-0.625",
+                    "C/O Refinance": "-1.000"
+                },
+                "LTV79": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO >= 760": "-1.250",
+                    "C/O Refinance": "-1.500"
+                }
+            }
+        }
+    },
+    "ADJUSTMENT_JUMBO_7ARM": {
+        "LTV": {
+            "CS690": {
+                "LTV59": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 680-699": "-0.625",
+                    "Purchase": "+0.125"
+                },
+                "LTV64": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 680-699": "-1.125",
+                    "Purchase": "+0.125"
+                },
+                "LTV74": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 680-699": "-2.500",
+                    "Purchase": "+0.125"
+                },
+                "LTV79": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 680-699": "-3.375",
+                    "Purchase": "+0.125"
+                },
+                "LTV84": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 680-699": "-4.750",
+                    "Purchase": "+0.125",
+                    "80% < LTV <= 90%, MI Adj -.25": "-0.250"
+                }
+            },
+            "CS710": {
+                "LTV59": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 700-719": "-0.125",
+                    "Purchase": "+0.125"
+                },
+                "LTV64": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 700-719": "-0.500",
+                    "Purchase": "+0.125"
+                },
+                "LTV74": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 700-719": "-1.500",
+                    "Purchase": "+0.125"
+                },
+                "LTV79": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 700-719": "-2.250",
+                    "Purchase": "+0.125"
+                },
+                "LTV84": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 700-719": "-3.500",
+                    "Purchase": "+0.125",
+                    "80% < LTV <= 90%, MI Adj -.25": "-0.250"
+                },
+                "LTV89": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 700-719": "-5.000",
+                    "Purchase": "+0.125",
+                    "80% < LTV <= 90%, MI Adj -.25": "-0.250"
+                }
+            },
+            "CS730": {
+                "LTV59": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 720-739": "0.000",
+                    "Purchase": "+0.125"
+                },
+                "LTV64": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 720-739": "-0.125",
+                    "Purchase": "+0.125"
+                },
+                "LTV74": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 720-739": "-1.000",
+                    "Purchase": "+0.125"
+                },
+                "LTV79": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 720-739": "-1.750",
+                    "Purchase": "+0.125"
+                },
+                "LTV84": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 720-739": "-2.625",
+                    "Purchase": "+0.125",
+                    "80% < LTV <= 90%, MI Adj -.25": "-0.250"
+                },
+                "LTV89": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 720-739": "-4.000",
+                    "Purchase": "+0.125",
+                    "80% < LTV <= 90%, MI Adj -.25": "-0.250"
+                }
+            },
+            "CS750": {
+                "LTV59": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 740-759": "+0.125",
+                    "Purchase": "+0.125"
+                },
+                "LTV64": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 740-759": "0.000",
+                    "Purchase": "+0.125"
+                },
+                "LTV74": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 740-759": "-0.750",
+                    "Purchase": "+0.125"
+                },
+                "LTV79": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 740-759": "-1.375",
+                    "Purchase": "+0.125"
+                },
+                "LTV84": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 740-759": "-2.125",
+                    "Purchase": "+0.125",
+                    "80% < LTV <= 90%, MI Adj -.25": "-0.250"
+                },
+                "LTV89": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 740-759": "-3.125",
+                    "Purchase": "+0.125",
+                    "80% < LTV <= 90%, MI Adj -.25": "-0.250"
+                }
+            },
+            "CS790": {
+                "LTV59": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO >= 760": "+0.250",
+                    "Purchase": "+0.125"
+                },
+                "LTV64": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO >= 760": "+0.125",
+                    "Purchase": "+0.125"
+                },
+                "LTV74": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO >= 760": "-0.625",
+                    "Purchase": "+0.125"
+                },
+                "LTV79": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO >= 760": "-1.250",
+                    "Purchase": "+0.125"
+                },
+                "LTV84": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO >= 760": "-1.750",
+                    "Purchase": "+0.125",
+                    "80% < LTV <= 90%, MI Adj -.25": "-0.250"
+                },
+                "LTV89": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO >= 760": "-2.625",
+                    "Purchase": "+0.125",
+                    "80% < LTV <= 90%, MI Adj -.25": "-0.250"
+                }
+            }
+        },
+        "Condo": {
+            "CS750": {
+                "LTV59": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 740-759": "+0.125",
+                    "Purchase": "+0.125"
+                },
+                "LTV74": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 740-759": "-0.750",
+                    "Purchase": "+0.125"
+                },
+                "LTV79": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 740-759": "-1.375",
+                    "Purchase": "+0.125"
+                },
+                "LTV84": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 740-759": "-2.125",
+                    "Purchase": "+0.125",
+                    "80% < LTV <= 90%, MI Adj -.25": "-0.250"
+                }
+            }
+        },
+        "TwoUnit": {
+            "CS750": {
+                "LTV59": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 740-759": "+0.125",
+                    "Purchase": "+0.125"
+                }
+            }
+        },
+        "Investment": {
+            "CS750": {
+                "LTV59": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 740-759": "+0.125",
+                    "Investment Property": "-1.000",
+                    "Purchase": "+0.125"
+                },
+                "LTV74": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 740-759": "-0.750",
+                    "Investment Property": "-2.500",
+                    "Purchase": "+0.125"
+                }
+            }
+        },
+        "CashOut": {
+            "CS770": {
+                "LTV59": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO >= 760": "+0.250",
+                    "C/O Refinance": "-0.500"
+                },
+                "LTV64": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO >= 760": "+0.125",
+                    "C/O Refinance": "-0.625"
+                },
+                "LTV74": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO >= 760": "-0.625",
+                    "C/O Refinance": "-1.000"
+                },
+                "LTV79": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO >= 760": "-1.250",
+                    "C/O Refinance": "-1.500"
+                }
+            }
+        }
+    },
+    "ADJUSTMENT_JUMBO_5ARM": {
+        "LTV": {
+            "CS690": {
+                "LTV59": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 680-699": "-0.625",
+                    "Purchase": "+0.125"
+                },
+                "LTV64": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 680-699": "-1.125",
+                    "Purchase": "+0.125"
+                },
+                "LTV74": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 680-699": "-2.500",
+                    "Purchase": "+0.125"
+                },
+                "LTV79": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 680-699": "-3.375",
+                    "Purchase": "+0.125"
+                },
+                "LTV84": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 680-699": "-4.750",
+                    "Purchase": "+0.125",
+                    "80% < LTV <= 90%, MI Adj -.25": "-0.250"
+                }
+            },
+            "CS710": {
+                "LTV59": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 700-719": "-0.125",
+                    "Purchase": "+0.125"
+                },
+                "LTV64": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 700-719": "-0.500",
+                    "Purchase": "+0.125"
+                },
+                "LTV74": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 700-719": "-1.500",
+                    "Purchase": "+0.125"
+                },
+                "LTV79": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 700-719": "-2.250",
+                    "Purchase": "+0.125"
+                },
+                "LTV84": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 700-719": "-3.500",
+                    "Purchase": "+0.125",
+                    "80% < LTV <= 90%, MI Adj -.25": "-0.250"
+                },
+                "LTV89": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 700-719": "-5.000",
+                    "Purchase": "+0.125",
+                    "80% < LTV <= 90%, MI Adj -.25": "-0.250"
+                }
+            },
+            "CS730": {
+                "LTV59": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 720-739": "0.000",
+                    "Purchase": "+0.125"
+                },
+                "LTV64": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 720-739": "-0.125",
+                    "Purchase": "+0.125"
+                },
+                "LTV74": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 720-739": "-1.000",
+                    "Purchase": "+0.125"
+                },
+                "LTV79": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 720-739": "-1.750",
+                    "Purchase": "+0.125"
+                },
+                "LTV84": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 720-739": "-2.625",
+                    "Purchase": "+0.125",
+                    "80% < LTV <= 90%, MI Adj -.25": "-0.250"
+                },
+                "LTV89": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 720-739": "-4.000",
+                    "Purchase": "+0.125",
+                    "80% < LTV <= 90%, MI Adj -.25": "-0.250"
+                }
+            },
+            "CS750": {
+                "LTV59": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 740-759": "+0.125",
+                    "Purchase": "+0.125"
+                },
+                "LTV64": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 740-759": "0.000",
+                    "Purchase": "+0.125"
+                },
+                "LTV74": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 740-759": "-0.750",
+                    "Purchase": "+0.125"
+                },
+                "LTV79": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 740-759": "-1.375",
+                    "Purchase": "+0.125"
+                },
+                "LTV84": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 740-759": "-2.125",
+                    "Purchase": "+0.125",
+                    "80% < LTV <= 90%, MI Adj -.25": "-0.250"
+                },
+                "LTV89": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 740-759": "-3.125",
+                    "Purchase": "+0.125",
+                    "80% < LTV <= 90%, MI Adj -.25": "-0.250"
+                }
+            },
+            "CS790": {
+                "LTV59": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO >= 760": "+0.250",
+                    "Purchase": "+0.125"
+                },
+                "LTV64": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO >= 760": "+0.125",
+                    "Purchase": "+0.125"
+                },
+                "LTV74": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO >= 760": "-0.625",
+                    "Purchase": "+0.125"
+                },
+                "LTV79": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO >= 760": "-1.250",
+                    "Purchase": "+0.125"
+                },
+                "LTV84": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO >= 760": "-1.750",
+                    "Purchase": "+0.125",
+                    "80% < LTV <= 90%, MI Adj -.25": "-0.250"
+                },
+                "LTV89": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO >= 760": "-2.625",
+                    "Purchase": "+0.125",
+                    "80% < LTV <= 90%, MI Adj -.25": "-0.250"
+                }
+            }
+        },
+        "Condo": {
+            "CS750": {
+                "LTV59": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 740-759": "+0.125",
+                    "Purchase": "+0.125"
+                },
+                "LTV74": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 740-759": "-0.750",
+                    "Purchase": "+0.125"
+                },
+                "LTV79": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 740-759": "-1.375",
+                    "Purchase": "+0.125"
+                },
+                "LTV84": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 740-759": "-2.125",
+                    "Purchase": "+0.125",
+                    "80% < LTV <= 90%, MI Adj -.25": "-0.250"
+                }
+            }
+        },
+        "TwoUnit": {
+            "CS750": {
+                "LTV59": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 740-759": "+0.125",
+                    "Purchase": "+0.125"
+                }
+            }
+        },
+        "Investment": {
+            "CS750": {
+                "LTV59": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 740-759": "+0.125",
+                    "Investment Property": "-1.000",
+                    "Purchase": "+0.125"
+                },
+                "LTV74": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO 740-759": "-0.750",
+                    "Investment Property": "-2.500",
+                    "Purchase": "+0.125"
+                }
+            }
+        },
+        "CashOut": {
+            "CS770": {
+                "LTV59": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO >= 760": "+0.250",
+                    "C/O Refinance": "-0.500"
+                },
+                "LTV64": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO >= 760": "+0.125",
+                    "C/O Refinance": "-0.625"
+                },
+                "LTV74": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO >= 760": "-0.625",
+                    "C/O Refinance": "-1.000"
+                },
+                "LTV79": {
+                    "Loan Amount <= $1M": "0.000",
+                    "FICO >= 760": "-1.250",
+                    "C/O Refinance": "-1.500"
+                }
+            }
+        }
+    }
+}

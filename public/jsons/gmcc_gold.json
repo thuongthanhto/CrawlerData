@@ -1,0 +1,675 @@
+{
+    "lender_name": "GMCC - Gold",
+    "ADJUSTMENT_JUMBO_30Fix": {
+        "LTV": {
+            "CS690": {},
+            "CS730": {
+                "LTV59": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.625",
+                    "LTV/FICO": "0.000"
+                },
+                "LTV64": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.625",
+                    "LTV/FICO": "0.000"
+                },
+                "LTV74": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.625",
+                    "LTV/FICO": "0.000"
+                },
+                "LTV79": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.625",
+                    "LTV/FICO": "-0.500"
+                }
+            },
+            "CS750": {
+                "LTV59": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.625",
+                    "LTV/FICO": "+0.375"
+                },
+                "LTV64": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.625",
+                    "LTV/FICO": "+0.125"
+                },
+                "LTV74": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.625",
+                    "LTV/FICO": "0.000"
+                },
+                "LTV79": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.625",
+                    "LTV/FICO": "0.000"
+                }
+            },
+            "CS790": {
+                "LTV59": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.625",
+                    "LTV/FICO": "+0.625"
+                },
+                "LTV64": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.625",
+                    "LTV/FICO": "+0.250"
+                },
+                "LTV74": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.625",
+                    "LTV/FICO": "0.000"
+                },
+                "LTV79": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.625",
+                    "LTV/FICO": "0.000"
+                }
+            }
+        },
+        "Condo": {
+            "CS750": {
+                "LTV74": {
+                    "Condo": "-0.250",
+                    "California Properties": "0.000",
+                    "Purchase": "+0.625",
+                    "LTV/FICO": "0.000"
+                },
+                "LTV79": {
+                    "Condo": "-0.375",
+                    "California Properties": "0.000",
+                    "Purchase": "+0.625",
+                    "LTV/FICO": "0.000"
+                }
+            }
+        },
+        "TwoUnit": {
+            "CS750": {}
+        },
+        "Investment": {
+            "CS750": {
+                "LTV59": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.625",
+                    "LTV/FICO": "+0.375",
+                    "Loan Amount $850,001-$1,000,000": "-0.500"
+                }
+            }
+        },
+        "CashOut": {
+            "CS770": {
+                "LTV64": {
+                    "California Properties": "0.000",
+                    "LTV/FICO": "+0.250",
+                    "Loan Amount $453,101-$1,000,000": "-0.250"
+                },
+                "LTV74": {
+                    "California Properties": "0.000",
+                    "LTV/FICO": "0.000",
+                    "Loan Amount $453,101-$1,000,000": "-0.625"
+                }
+            }
+        }
+    },
+    "ADJUSTMENT_JUMBO_15Fix": {
+        "LTV": {
+            "CS690": {},
+            "CS730": {
+                "LTV59": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.625",
+                    "LTV/FICO": "0.000"
+                },
+                "LTV64": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.625",
+                    "LTV/FICO": "0.000"
+                },
+                "LTV74": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.625",
+                    "LTV/FICO": "0.000"
+                },
+                "LTV79": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.625",
+                    "LTV/FICO": "-0.500"
+                }
+            },
+            "CS750": {
+                "LTV59": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.625",
+                    "LTV/FICO": "+0.375"
+                },
+                "LTV64": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.625",
+                    "LTV/FICO": "+0.125"
+                },
+                "LTV74": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.625",
+                    "LTV/FICO": "0.000"
+                },
+                "LTV79": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.625",
+                    "LTV/FICO": "0.000"
+                }
+            },
+            "CS790": {
+                "LTV59": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.625",
+                    "LTV/FICO": "+0.625"
+                },
+                "LTV64": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.625",
+                    "LTV/FICO": "+0.250"
+                },
+                "LTV74": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.625",
+                    "LTV/FICO": "0.000"
+                },
+                "LTV79": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.625",
+                    "LTV/FICO": "0.000"
+                }
+            }
+        },
+        "Condo": {
+            "CS750": {
+                "LTV74": {
+                    "Condo": "-0.250",
+                    "California Properties": "0.000",
+                    "Purchase": "+0.625",
+                    "LTV/FICO": "0.000"
+                },
+                "LTV79": {
+                    "Condo": "-0.375",
+                    "California Properties": "0.000",
+                    "Purchase": "+0.625",
+                    "LTV/FICO": "0.000"
+                }
+            }
+        },
+        "TwoUnit": {
+            "CS750": {}
+        },
+        "Investment": {
+            "CS750": {
+                "LTV59": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.625",
+                    "LTV/FICO": "+0.375",
+                    "Loan Amount $850,001-$1,000,000": "-0.500"
+                }
+            }
+        },
+        "CashOut": {
+            "CS770": {
+                "LTV64": {
+                    "California Properties": "0.000",
+                    "LTV/FICO": "+0.250",
+                    "Loan Amount $453,101-$1,000,000": "-0.250"
+                },
+                "LTV74": {
+                    "California Properties": "0.000",
+                    "LTV/FICO": "0.000",
+                    "Loan Amount $453,101-$1,000,000": "-0.625"
+                }
+            }
+        }
+    },
+    "ADJUSTMENT_JUMBO_10ARM": {
+        "LTV": {
+            "CS690": {},
+            "CS730": {
+                "LTV59": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.500",
+                    "LTV/FICO": "+0.250"
+                },
+                "LTV64": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.500",
+                    "LTV/FICO": "+0.125"
+                },
+                "LTV74": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.500",
+                    "LTV/FICO": "0.000"
+                },
+                "LTV79": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.500",
+                    "LTV/FICO": "-0.375"
+                }
+            },
+            "CS750": {
+                "LTV59": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.500",
+                    "LTV/FICO": "+0.375"
+                },
+                "LTV64": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.500",
+                    "LTV/FICO": "+0.250"
+                },
+                "LTV74": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.500",
+                    "LTV/FICO": "0.000"
+                },
+                "LTV79": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.500",
+                    "LTV/FICO": "-0.250"
+                }
+            },
+            "CS790": {
+                "LTV59": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.500",
+                    "LTV/FICO": "+0.500"
+                },
+                "LTV64": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.500",
+                    "LTV/FICO": "+0.375"
+                },
+                "LTV74": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.500",
+                    "LTV/FICO": "+0.125"
+                },
+                "LTV79": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.500",
+                    "LTV/FICO": "0.000"
+                },
+                "LTV84": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.500",
+                    "LTV/FICO": "0.000",
+                    "High LTV": "R+0.375",
+                    "80% < LTV <= 90%, MI Adj -.25": "-0.250"
+                },
+                "LTV89": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.500",
+                    "LTV/FICO": "0.000",
+                    "High LTV": "R+0.625",
+                    "80% < LTV <= 90%, MI Adj -.25": "-0.250"
+                }
+            },
+            "CS710": {}
+        },
+        "Condo": {
+            "CS750": {
+                "LTV59": {
+                    "Condo": "0.000",
+                    "California Properties": "0.000",
+                    "Purchase": "+0.500",
+                    "LTV/FICO": "+0.375"
+                },
+                "LTV74": {
+                    "Condo": "-0.250",
+                    "California Properties": "0.000",
+                    "Purchase": "+0.500",
+                    "LTV/FICO": "0.000"
+                },
+                "LTV79": {
+                    "Condo": "-0.375",
+                    "California Properties": "0.000",
+                    "Purchase": "+0.500",
+                    "LTV/FICO": "-0.250"
+                },
+                "LTV84": {
+                    "Condo": "-0.375",
+                    "California Properties": "0.000",
+                    "Purchase": "+0.500",
+                    "LTV/FICO": "-0.250",
+                    "High LTV": ""
+                }
+            }
+        },
+        "TwoUnit": {
+            "CS750": {
+                "LTV59": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.500",
+                    "LTV/FICO": "+0.375"
+                }
+            }
+        },
+        "Investment": {
+            "CS750": {
+                "LTV59": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.500",
+                    "LTV/FICO": "+0.375",
+                    "Loan Amount $850,001-$1,000,000": "-0.500"
+                }
+            }
+        },
+        "CashOut": {
+            "CS770": {
+                "LTV64": {
+                    "California Properties": "0.000",
+                    "LTV/FICO": "+0.375",
+                    "Loan Amount $200,000-$1,000,000": "-0.250"
+                },
+                "LTV74": {
+                    "California Properties": "0.000",
+                    "LTV/FICO": "+0.125",
+                    "Loan Amount $200,000-$1,000,000": "-0.625"
+                }
+            }
+        }
+    },
+    "ADJUSTMENT_JUMBO_7ARM": {
+        "LTV": {
+            "CS690": {},
+            "CS730": {
+                "LTV59": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.500",
+                    "LTV/FICO": "+0.250"
+                },
+                "LTV64": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.500",
+                    "LTV/FICO": "+0.125"
+                },
+                "LTV74": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.500",
+                    "LTV/FICO": "0.000"
+                },
+                "LTV79": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.500",
+                    "LTV/FICO": "-0.375"
+                }
+            },
+            "CS750": {
+                "LTV59": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.500",
+                    "LTV/FICO": "+0.375"
+                },
+                "LTV64": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.500",
+                    "LTV/FICO": "+0.250"
+                },
+                "LTV74": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.500",
+                    "LTV/FICO": "0.000"
+                },
+                "LTV79": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.500",
+                    "LTV/FICO": "-0.250"
+                }
+            },
+            "CS790": {
+                "LTV59": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.500",
+                    "LTV/FICO": "+0.500"
+                },
+                "LTV64": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.500",
+                    "LTV/FICO": "+0.375"
+                },
+                "LTV74": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.500",
+                    "LTV/FICO": "+0.125"
+                },
+                "LTV79": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.500",
+                    "LTV/FICO": "0.000"
+                },
+                "LTV84": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.500",
+                    "LTV/FICO": "0.000",
+                    "High LTV": "R+0.375",
+                    "80% < LTV <= 90%, MI Adj -.25": "-0.250"
+                },
+                "LTV89": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.500",
+                    "LTV/FICO": "0.000",
+                    "High LTV": "R+0.625",
+                    "80% < LTV <= 90%, MI Adj -.25": "-0.250"
+                }
+            },
+            "CS710": {}
+        },
+        "Condo": {
+            "CS750": {
+                "LTV59": {
+                    "Condo": "0.000",
+                    "California Properties": "0.000",
+                    "Purchase": "+0.500",
+                    "LTV/FICO": "+0.375"
+                },
+                "LTV74": {
+                    "Condo": "-0.250",
+                    "California Properties": "0.000",
+                    "Purchase": "+0.500",
+                    "LTV/FICO": "0.000"
+                },
+                "LTV79": {
+                    "Condo": "-0.375",
+                    "California Properties": "0.000",
+                    "Purchase": "+0.500",
+                    "LTV/FICO": "-0.250"
+                },
+                "LTV84": {
+                    "Condo": "-0.375",
+                    "California Properties": "0.000",
+                    "Purchase": "+0.500",
+                    "LTV/FICO": "-0.250",
+                    "High LTV": ""
+                }
+            }
+        },
+        "TwoUnit": {
+            "CS750": {
+                "LTV59": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.500",
+                    "LTV/FICO": "+0.375"
+                }
+            }
+        },
+        "Investment": {
+            "CS750": {
+                "LTV59": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.500",
+                    "LTV/FICO": "+0.375",
+                    "Loan Amount $850,001-$1,000,000": "-0.500"
+                }
+            }
+        },
+        "CashOut": {
+            "CS770": {
+                "LTV64": {
+                    "California Properties": "0.000",
+                    "LTV/FICO": "+0.375",
+                    "Loan Amount $200,000-$1,000,000": "-0.250"
+                },
+                "LTV74": {
+                    "California Properties": "0.000",
+                    "LTV/FICO": "+0.125",
+                    "Loan Amount $200,000-$1,000,000": "-0.625"
+                }
+            }
+        }
+    },
+    "ADJUSTMENT_JUMBO_5ARM": {
+        "LTV": {
+            "CS690": {},
+            "CS730": {
+                "LTV59": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.500",
+                    "LTV/FICO": "+0.250"
+                },
+                "LTV64": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.500",
+                    "LTV/FICO": "+0.125"
+                },
+                "LTV74": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.500",
+                    "LTV/FICO": "0.000"
+                },
+                "LTV79": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.500",
+                    "LTV/FICO": "-0.375"
+                }
+            },
+            "CS750": {
+                "LTV59": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.500",
+                    "LTV/FICO": "+0.375"
+                },
+                "LTV64": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.500",
+                    "LTV/FICO": "+0.250"
+                },
+                "LTV74": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.500",
+                    "LTV/FICO": "0.000"
+                },
+                "LTV79": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.500",
+                    "LTV/FICO": "-0.250"
+                }
+            },
+            "CS790": {
+                "LTV59": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.500",
+                    "LTV/FICO": "+0.500"
+                },
+                "LTV64": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.500",
+                    "LTV/FICO": "+0.375"
+                },
+                "LTV74": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.500",
+                    "LTV/FICO": "+0.125"
+                },
+                "LTV79": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.500",
+                    "LTV/FICO": "0.000"
+                },
+                "LTV84": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.500",
+                    "LTV/FICO": "0.000",
+                    "High LTV": "R+0.375",
+                    "80% < LTV <= 90%, MI Adj -.25": "-0.250"
+                },
+                "LTV89": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.500",
+                    "LTV/FICO": "0.000",
+                    "High LTV": "R+0.625",
+                    "80% < LTV <= 90%, MI Adj -.25": "-0.250"
+                }
+            },
+            "CS710": {}
+        },
+        "Condo": {
+            "CS750": {
+                "LTV59": {
+                    "Condo": "0.000",
+                    "California Properties": "0.000",
+                    "Purchase": "+0.500",
+                    "LTV/FICO": "+0.375"
+                },
+                "LTV74": {
+                    "Condo": "-0.250",
+                    "California Properties": "0.000",
+                    "Purchase": "+0.500",
+                    "LTV/FICO": "0.000"
+                },
+                "LTV79": {
+                    "Condo": "-0.375",
+                    "California Properties": "0.000",
+                    "Purchase": "+0.500",
+                    "LTV/FICO": "-0.250"
+                },
+                "LTV84": {
+                    "Condo": "-0.375",
+                    "California Properties": "0.000",
+                    "Purchase": "+0.500",
+                    "LTV/FICO": "-0.250",
+                    "High LTV": ""
+                }
+            }
+        },
+        "TwoUnit": {
+            "CS750": {
+                "LTV59": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.500",
+                    "LTV/FICO": "+0.375"
+                }
+            }
+        },
+        "Investment": {
+            "CS750": {
+                "LTV59": {
+                    "California Properties": "0.000",
+                    "Purchase": "+0.500",
+                    "LTV/FICO": "+0.375",
+                    "Loan Amount $850,001-$1,000,000": "-0.500"
+                }
+            }
+        },
+        "CashOut": {
+            "CS770": {
+                "LTV64": {
+                    "California Properties": "0.000",
+                    "LTV/FICO": "+0.375",
+                    "Loan Amount $200,000-$1,000,000": "-0.250"
+                },
+                "LTV74": {
+                    "California Properties": "0.000",
+                    "LTV/FICO": "+0.125",
+                    "Loan Amount $200,000-$1,000,000": "-0.625"
+                }
+            }
+        }
+    }
+}

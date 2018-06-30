@@ -1,0 +1,24 @@
+# Add any directories, files, or patterns you don't want to be tracked by version control
+#
+#Build results
+dest/
+!dest/emails
+
+# Package directory
+node_modules/
+
+
+src/**/*.js.map
+
+
+# Others
+.idea/
+.vscode/
+logs/
+package-lock.json
+dest.zip
+build.sh
+dump.rdb
+src/.DS_Store
+src/raml/.DS_Store
+.history/
