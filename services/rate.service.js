@@ -7,13 +7,11 @@ var TimeStamp = require("./../models/timeStamp.model")
 
 module.exports = {
     getRawDataOfAllLenderById: getRawDataOfAllLenderById,
-    processRawData: processRawData,
     processRawDataById: processRawDataById,
     convertArrayFromRawData: convertArrayFromRawData,
     returnObjectLender: returnObjectLender,
     addValueToHeader: addValueToHeader,
     processLenderFlowYear: processLenderFlowYear,
-    updateRate: updateRate,
     updateRateById: updateRateById,
     postLender: postLender,
     putLender: putLender,
@@ -40,10 +38,10 @@ function getTimeStamp(res, callback) {
             callback('error');
         } else {
             var timeStamp = {};
-            data.forEach(function(element){
-                if (element.id === '6215260'){
+            data.forEach(function (element) {
+                if (element.id === '6215260') {
                     timeStamp.timestamp6215260 = element.updateDate;
-                }else{
+                } else {
                     timeStamp.timestamp7406183 = element.updateDate;
                 }
             })
@@ -184,76 +182,20 @@ function getRawDataOfAllLenderById(res, cookie, id, callback) {
         }
     }, function (error, response, body) {
         if (error) {
-            console.log("Get raw data of all lender error: " + error);
-            return 'Get raw data of all lender failed. Please try again!';
-        }
-        const RATE = body.replace(/,,/g, ",null,").replace(/,,/g, ",");
-        const OBJECT = { RATES: JSON.parse(RATE) };
-        url = './public/jsons/' + id + '.json'
-        //fs.writeFileSync(url, JSON.stringify(OBJECT, null, '   '));
-        setRaw(id, JSON.stringify(OBJECT, null, '   '), function (value) {
-            if (value == 'success') {
-                callback('success')
-            } else {
-                callback('error')
-            }
-        })
-    });
-}
+            callback(error)
+        } else {
+            const RATE = body.replace(/,,/g, ",null,").replace(/,,/g, ",");
+            const OBJECT = { RATES: JSON.parse(RATE) };
 
-function processRawData() {
-    var content = fs.readFileSync('./public/jsons/gmcc.json');
-    var jsonContent = JSON.parse(content);
-
-    var listLender = convertArrayFromRawData(jsonContent.RATES[3]);
-    var listGMCC_Gold = [];
-    var listGMCC_Bronze = [];
-    var listGMCC_UlyssesUST = [];
-    var listGMCC_UlyssesLIBOR = [];
-    var listGMCC_Diamond = [];
-    var listGMCC_Silver = [];
-    var listGMCC_SilverPreferredPayment = [];
-    listLender.forEach(element => {
-        if (element.Program.includes("GMCC - Gold")) {
-            listGMCC_Gold.push(element);
-        }
-        if (element.Program.includes("GMCC - Bronze")) {
-            listGMCC_Bronze.push(element);
-        }
-        if (element.Program.includes("GMCC - Ulysses Elite UST")) {
-            listGMCC_UlyssesUST.push(element);
-        }
-        if (element.Program.includes("GMCC - Ulysses Elite LIBOR")) {
-            listGMCC_UlyssesLIBOR.push(element);
-        }
-        if (element.Program.includes("GMCC-InHouseAgncy-Diamond")) {
-            listGMCC_Diamond.push(element);
-        }
-        if (element.Program.includes("GMCC-InHouse Agncy-Silver")) {
-            if (element.Program.includes("GMCC-InHouse Agncy-Silver Non-Conf Conv Preferred Payment")) {
-                listGMCC_SilverPreferredPayment.push(element);
-            }
-            else {
-                listGMCC_Silver.push(element);
-            }
+            setRaw(id, JSON.stringify(OBJECT, null, '   '), function (value) {
+                if (value == 'success') {
+                    callback('success')
+                } else {
+                    callback('error')
+                }
+            })
         }
     });
-
-    var listValue4 = convertArrayFromRawData(jsonContent.RATES[4]);
-    var listValue7 = convertArrayFromRawData(jsonContent.RATES[7]);
-    var listValue = listValue4;
-
-    var objectGMCC_Gold = returnObjectLender('GMCC - Gold', listGMCC_Gold, listValue, 'GMCC - Gold Preferred Fixed 30', 'GMCC - Gold Preferred Fixed 15', 'GMCC - Gold Preferred ARM 5/1', 'GMCC - Gold Preferred ARM 7/1', 'GMCC - Gold Preferred ARM 10/1');
-    var objectGMCC_Bronze = returnObjectLender('GMCC - Bronze', listGMCC_Bronze, listValue, 'GMCC - Bronze Jumbo Advantage Fixed 30', 'GMCC - Bronze Jumbo Advantage Fixed 15', 'GMCC - Bronze Jumbo Advantage 5/1 LIBOR ARM', 'GMCC - Bronze Jumbo Advantage 7/1 LIBOR ARM', 'GMCC - Bronze Jumbo Advantage 10/1 LIBOR ARM');
-    var objectGMCC_UlyssesUST = returnObjectLender('GMCC - UlyssesUST', listGMCC_UlyssesUST, listValue, '', '', 'GMCC - Ulysses Elite UST 5/1 ARM', 'GMCC - Ulysses Elite UST 7/1 ARM', 'GMCC - Ulysses Elite UST 10/1 ARM');
-    var objectGMCC_UlyssesLIBOR = returnObjectLender('GMCC - UlyssesLIBOR', listGMCC_UlyssesLIBOR, listValue, '', '', 'GMCC - Ulysses Elite LIBOR 5/1 ARM', 'GMCC - Ulysses Elite LIBOR 7/1 ARM', 'GMCC - Ulysses Elite LIBOR 10/1 ARM');
-    var objectGMCC_Diamond = returnObjectLender('GMCC - Diamond', listGMCC_Diamond, listValue, 'GMCC-InHouseAgncy-Diamond Non-Agency Full Doc Fixed 30', 'GMCC-InHouseAgncy-Diamond Non-Agency Full Doc Fixed 15', 'GMCC-InHouseAgncy-Diamond Non-Agency Full Doc ARM 5/1 LIBOR', 'GMCC-InHouseAgncy-Diamond Non-Agency Full Doc ARM 7/1 LIBOR', 'GMCC-InHouseAgncy-Diamond Non-Agency Full Doc ARM 10/1 LIBOR');
-    var objectGMCC_Silver = returnObjectLender('GMCC - Silver', listGMCC_Silver, listValue, 'GMCC-InHouse Agncy-Silver Non-Conf Conv Fixed 30', 'GMCC-InHouse Agncy-Silver Non-Conf Conv Fixed 15', 'GMCC-InHouse Agncy-Silver Non-Conf Conv 5/1 LIBOR ARM', 'GMCC-InHouse Agncy-Silver Non-Conf Conv 7/1 LIBOR ARM', 'GMCC-InHouse Agncy-Silver Non-Conf Conv 10/1 LIBOR ARM');
-    var objectGMCC_SilverPreferredPayment = returnObjectLender('GMCC - SilverPreferredPayment', listGMCC_SilverPreferredPayment, listValue, 'GMCC-InHouse Agncy-Silver Non-Conf Conv Preferred Payment Plan Fixed 30', 'GMCC-InHouse Agncy-Silver Non-Conf Conv Preferred Payment Plan Fixed 15', 'GMCC-InHouse Agncy-Silver Non-Conf Conv Preferred Payment Plan ARM 5/1', 'GMCC-InHouse Agncy-Silver Non-Conf Conv Preferred Payment Plan ARM 7/1', 'GMCC-InHouse Agncy-Silver Non-Conf Conv Preferred Payment Plan ARM 10/1');
-
-    var objectNewDataRate = { objectGMCC_Gold: objectGMCC_Gold, objectGMCC_Bronze: objectGMCC_Bronze, objectGMCC_UlyssesUST: objectGMCC_UlyssesUST, objectGMCC_UlyssesLIBOR: objectGMCC_UlyssesLIBOR, objectGMCC_Diamond: objectGMCC_Diamond, objectGMCC_Silver: objectGMCC_Silver, objectGMCC_SilverPreferredPayment: objectGMCC_SilverPreferredPayment };
-    fs.writeFile('./public/jsons/newRateData.json', JSON.stringify(objectNewDataRate), 'utf-8');
-    return objectNewDataRate;
 }
 
 function processRawDataById(id, callback) {
@@ -344,20 +286,6 @@ function putLender(myJSONObject) {
         body: myJSONObject
     }, function (error, response, body) {
     });
-}
-
-function updateRate() {
-    var content = fs.readFileSync('./public/jsons/newRateData.json');
-    object = JSON.parse(content);
-    putLender(object.objectGMCC_Gold);
-    putLender(object.objectGMCC_Bronze);
-    putLender(object.objectGMCC_UlyssesUST);
-    putLender(object.objectGMCC_UlyssesLIBOR);
-    putLender(object.objectGMCC_Diamond);
-    putLender(object.objectGMCC_Silver);
-    putLender(object.objectGMCC_SilverPreferredPayment);
-
-    return 'Update All Lender Success.'
 }
 
 async function updateRateById(id) {
